@@ -8,10 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="87cba320-571d-4100-a60a-be41b2ba3d5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
+
       <change beforePath="$PROJECT_DIR$/out/production/AdvancedJava/IHM/MaFenetre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdvancedJava/IHM/MaFenetre.class" afterDir="false" />
-=======
->>>>>>> master
+
       <change beforePath="$PROJECT_DIR$/projetJava/src/IHM/MaFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/projetJava/src/IHM/MaFenetre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
