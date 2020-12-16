@@ -1,8 +1,9 @@
 package com.company;
-
+import IHM.MaFenetre;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        MaFenetre maFenetre = new MaFenetre();
+        maFenetre.setVisible(true);
     }
 }
