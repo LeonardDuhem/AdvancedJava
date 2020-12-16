@@ -23,6 +23,25 @@ public class MaFenetre extends JFrame {
         aboutMenu.setText("About");
         menuBar.add(aboutMenu);
 
+        Object [] [] donnees = {
+
+                {"Harry Potter","J.K Rowling","",5,2,2009},
+                {"Eragon","C.Paolini","Un monde de dragon",2,2,2000},
+
+        };
+
+       String[] entetes = {"Name","Auteur","Résumé","Colonne","Rangees","Parution"};
+
+        JTable montableau = new JTable(donnees,entetes);
+       // panel.add(montableau);
+
+       getContentPane().add(montableau.getTableHeader(),BorderLayout.NORTH);
+      getContentPane().add(montableau,BorderLayout.CENTER);
+
+
+
+
+
         JLabel label1 = new JLabel("Titre");
         JLabel label2 = new JLabel("Auteur");
         JLabel label3 = new JLabel("Parution");
