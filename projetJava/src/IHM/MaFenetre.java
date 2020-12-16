@@ -2,6 +2,8 @@ package IHM;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MaFenetre extends JFrame {
     public MaFenetre(){
@@ -13,8 +15,17 @@ public class MaFenetre extends JFrame {
         this.setJMenuBar(menuBar);
         JMenu fileMenu = new JMenu("File");
         menuBar.add(fileMenu);
-
-        JMenu editMenu = new JMenu("Edit");
+        FileDialog fDial= new FileDialog(this, "Ouvrir", FileDialog.LOAD);
+        JMenuItem fichier = new JMenuItem("Fichier");
+        fileMenu.add(fichier);
+        fichier.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fDial.setVisible(true);
+            }
+        });
+        JMenu editMenu = new JMenu();
+        editMenu.setText("Edit");
         menuBar.add(editMenu);
 
         JMenu aboutMenu = new JMenu("About");
