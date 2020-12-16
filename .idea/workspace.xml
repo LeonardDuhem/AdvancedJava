@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87cba320-571d-4100-a60a-be41b2ba3d5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/projetJava/src/IHM/MaFenetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/projetJava/src/IHM/MaFenetre.java" afterDir="false" />
-    </list>
+    <list default="true" id="87cba320-571d-4100-a60a-be41b2ba3d5e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +26,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -70,5 +72,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="470" y="279" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608128935079">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="470" y="279" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1608128935079" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1608128939225">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608128939225" />
   </component>
 </project>
