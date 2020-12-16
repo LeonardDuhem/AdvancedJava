@@ -6,22 +6,29 @@ import java.awt.*;
 public class MaFenetre extends JFrame {
     public MaFenetre(){
         super("Biblio.exe");
-        setSize(650,350);
+        setSize(1500,750);
         JPanel panel = new JPanel();
         this.setContentPane(panel);
         JMenuBar menuBar = new JMenuBar();
         this.setJMenuBar(menuBar);
-        JMenu fileMenu = new JMenu();
-        fileMenu.setText("File");
+        JMenu fileMenu = new JMenu("File");
         menuBar.add(fileMenu);
 
-        JMenu editMenu = new JMenu();
-        editMenu.setText("Edit");
+        JMenu editMenu = new JMenu("Edit");
         menuBar.add(editMenu);
 
-        JMenu aboutMenu = new JMenu();
-        aboutMenu.setText("About");
+        JMenu aboutMenu = new JMenu("About");
         menuBar.add(aboutMenu);
+
+
+
+        JButton buttonPlus = new JButton("Add");
+        panel.add(buttonPlus);
+        JButton buttonSup = new JButton("Sup");
+        panel.add(buttonSup);
+
+        JButton buttonValider = new JButton("Valider");
+
 
         JLabel label1 = new JLabel("Titre");
         JLabel label2 = new JLabel("Auteur");
@@ -56,6 +63,8 @@ public class MaFenetre extends JFrame {
         panel.add(textField5);
         panel.add(label6);
         panel.add(textArea);
+
+        panel.add(buttonValider);
 
 
     }
